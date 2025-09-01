@@ -16,7 +16,7 @@
   "scripts": {
     "start": "webpack serve --open --mode development",
     "test": "jest --coverage",
-    "lint": "node --no-warnings node_modules/.bin/eslint . --fix",
+    "lint": "eslint . --fix",
     "build": "webpack --mode production"
   },
   "devDependencies": {
